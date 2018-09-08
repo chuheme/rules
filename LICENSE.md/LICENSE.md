@@ -1,0 +1,2 @@
+主要精简自lhie1大佬的规则：
+https://github.com/lhie1/Surge
