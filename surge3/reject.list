@@ -37,8 +37,6 @@ DOMAIN-SUFFIX,store.iqiyi.com
 DOMAIN-SUFFIX,t7z.cupid.iqiyi.com
 DOMAIN-SUFFIX,tracker.sns.iqiyi.com
 DOMAIN-SUFFIX,yuedu.iqiyi.com
-URL-REGEX,^https?:\/\/.+/videos/other/.+
-URL-REGEX,^https?:\/\/paopao\w?\.qiyipic\.com
 IP-CIDR,101.227.97.240/32,no-resolve
 IP-CIDR,101.227.200.11/32,no-resolve
 IP-CIDR,101.227.200.28/32,no-resolve
@@ -103,7 +101,6 @@ IP-CIDR,223.87.182.101/32,no-resolve
 IP-CIDR,223.87.182.102/32,no-resolve
 IP-CIDR,223.87.182.11/32,no-resolve
 IP-CIDR,223.87.182.52/32,no-resolve
-URL-REGEX,^https?:\/\/.+\.atm\.youku\.com
 
 // MGTV
 DOMAIN-SUFFIX,ads-api.videojj.com
@@ -198,7 +195,6 @@ DOMAIN-SUFFIX,jp.as.pptv.com
 DOMAIN-SUFFIX,pp2.pptv.com
 DOMAIN-SUFFIX,stat.pptv.com
 DOMAIN-SUFFIX,static.g.pptv.com
-URL-REGEX,^https?:\/\/img\w\.g\.pptv\.com
 
 // Site
 DOMAIN-SUFFIX,deliver.ifeng.com
@@ -206,7 +202,6 @@ DOMAIN-SUFFIX,hxjs.tool.hexun.com
 DOMAIN-SUFFIX,hxsame.hexun.com
 DOMAIN-SUFFIX,itv.hexun.com
 DOMAIN-SUFFIX,utrack.hexun.com
-URL-REGEX,^https?:\/\/h\w{2}\.hxsame\.hexun\.com
 
 // Vod
 DOMAIN-SUFFIX,ad.cmvideo.cn
@@ -8210,6 +8205,13 @@ DOMAIN-SUFFIX,zzy1.mipujia.com
 DOMAIN-SUFFIX,zzy1.quyaoya.com
 DOMAIN-SUFFIX,zzz7.52896368.com
 DOMAIN-SUFFIX,zzzzz4.52896368.com
+
+//URL-REGEX
+URL-REGEX,^https?:\/\/.+/videos/other/.+
+URL-REGEX,^https?:\/\/paopao\w?\.qiyipic\.com
+URL-REGEX,^https?:\/\/.+\.atm\.youku\.com
+URL-REGEX,^https?:\/\/img\w\.g\.pptv\.com
+URL-REGEX,^https?:\/\/h\w{2}\.hxsame\.hexun\.com
 
 URL-REGEX,^https?:\/\/(\w\.)?up\.qingdaonews\.com
 URL-REGEX,^https?:\/\/(\w+\.)?(ads|log\w?|tj|tongji|stat|stats|statis|trace|track|click)\.\w+\.(com|cn|net)
