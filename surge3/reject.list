@@ -8226,7 +8226,7 @@ URL-REGEX,^https?:\/\/sax\w?\.sina\.cn
 URL-REGEX,^https?:\/\/sax\w?\.sina\.com\.cn
 URL-REGEX,^https?:\/\/server-\w+\.imrworldwide\.com
 URL-REGEX,^https?:\/\/t\d{2}\.baidu\.com
-URL-REGEX,^https?:\/\/www\.bldimg\.com\/(background|splash)\/.+\.png$,REJECT
+URL-REGEX,^https?:\/\/www\.bldimg\.com\/(background|splash)\/.+\.png$
 
 //IP-CIDR
 // iqiyi & pps
