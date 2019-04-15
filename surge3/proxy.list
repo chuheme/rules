@@ -691,8 +691,8 @@ DOMAIN-SUFFIX,waveprotocol.org
 DOMAIN-SUFFIX,webmproject.org
 DOMAIN-SUFFIX,webrtc.org
 
-DOMAIN-KEYWORD,dlercloud,PROXY
-DOMAIN-SUFFIX,dler.cloud,PROXY
+DOMAIN-KEYWORD,dlercloud
+DOMAIN-SUFFIX,dler.cloud
 
 // Amazon
 IP-CIDR,13.32.0.0/16,no-resolve
