@@ -1,4 +1,4 @@
-//Apple
+# > Apple
 PROCESS-NAME,trustd
 USER-AGENT,AppStore*
 USER-AGENT,com.apple.appstored*

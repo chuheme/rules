@@ -1,4 +1,4 @@
-// Accelerate direct sites
+# > Accelerate direct sites
 DOMAIN-KEYWORD,announce
 DOMAIN-KEYWORD,torrent
 DOMAIN-KEYWORD,tracker
@@ -8,7 +8,7 @@ URL-REGEX,(api|ps|sv|offnavi|newvector|ulog.imap|newloc)(.map|).(baidu|n.shifen)
 URL-REGEX,(.+.|^)(360|so|qihoo|360safe|qhimg|360totalsecurity|yunpan).(cn|com)
 URL-REGEX,(.+.)?(torrent|announce.php?passkey=|tracker|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=|sandai|Thunder|XLLiveUD|xunlei)(..+)?
 
-// LAN,debugging rules should place above this line
+# > LAN,debugging rules should place above this line
 DOMAIN-SUFFIX,local
 IP-CIDR,10.0.0.0/8
 IP-CIDR,100.64.0.0/10
