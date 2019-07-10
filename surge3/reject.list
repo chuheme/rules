@@ -8191,7 +8191,7 @@ URL-REGEX,https?://.+.atm.youku.com
 URL-REGEX,https?://img\w.g.pptv.com
 # > Site
 URL-REGEX,https?://h\w{2}.hxsame.hexun.com
-
+# > Others
 URL-REGEX,https?://(e|m).+/((uu|oo).php.+|\d+.x?html\?$)
 URL-REGEX,https?://[^(apple|10010)]+.(com|cn)\/(a|A)d(s|v)?(/|.js)
 URL-REGEX,https?://[^bbs].tianya\.cn
