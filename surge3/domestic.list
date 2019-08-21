@@ -26,6 +26,7 @@ DOMAIN-SUFFIX,alphassl.com
 DOMAIN-SUFFIX,edu.cn
 
 # > Steam
+USER-AGENT,Steam*
 DOMAIN-SUFFIX,steamcontent.com
 
 # > TeamViewer
